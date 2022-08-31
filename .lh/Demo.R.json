@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Demo.R",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1661939909851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1661939909851,
+            "name": "Commit-0",
+            "content": "# This contains steps to configure my personal Access Token\r\nlibrary(usethis)\r\n\r\nuse_git_config(user.name = \"username\", user.email = \"User.email\")\r\n\r\n\r\ngit_sitrep()\r\n\r\n\r\ncreate_github_token() # This will create a github token; copy the token to your clipboard\r\n\r\nlibrary(gitcreds)\r\ngitcreds_set() # Follow the instruction and then paste the github token there\r\n\r\nuse_git() # Follow the steps\r\nuse_github()  # This will create a github repository with your new project\r\n"
+        }
+    ]
+}
